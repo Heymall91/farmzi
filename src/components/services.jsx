@@ -4,7 +4,6 @@ import Flower from '../assets/flower.jpg'
 import Planting from '../assets/planting.jpg'
 import Rush from '../assets/rush.jpg'
 import Watering from '../assets/watering.jpg'
-import Arrow from '../assets/arrowUp.svg'
 
 export default function Services(){
     const [isHide, setHide] = useState(false);
@@ -14,28 +13,28 @@ export default function Services(){
     return(
         <section className="services">
             <div className="wrapper">
-                <div className="services__block">
+                <div className="services__block" id="services">
                     <div className="ahead">
                         <p className="upper__des">Our Services</p>
                         <h2 className="standart__h2">Farmzi always provide amazing gardening and landscaping services.</h2>
                     </div>
                     <div className="services__list">
-                        <div className="services__list__item">
+                        <div className="services__list__item" data-aos="flip-left">
                             <img src={Flower} alt="flower" />
                             <p className="upper__des">Flower</p>
                             <h3 className='standart__h3'>Flower Planting</h3>
                         </div>
-                        <div className="services__list__item">
+                        <div className="services__list__item" data-aos="flip-right">
                             <img src={Planting} alt="planting" />
                             <p className="upper__des">Planting</p>
                             <h3 className='standart__h3'>Planting</h3>
                         </div>
-                        <div className="services__list__item">
+                        <div className="services__list__item" data-aos="flip-left">
                             <img src={Rush} alt="rush" />
                             <p className="upper__des">Rush</p>
                             <h3 className='standart__h3'>Rush Removal</h3>
                         </div>
-                        <div className="services__list__item">
+                        <div className="services__list__item" data-aos="flip-right">
                             <img src={Watering} alt="watering" />
                             <p className="upper__des">Watering</p>
                             <h3 className='standart__h3'>Garden Watering</h3>
@@ -52,7 +51,7 @@ export default function Services(){
                             <p className="upper__des">Rush</p>
                             <h3 className='standart__h3'>Rush Removal</h3>
                         </div>
-                        <div className="services__list__item">
+                        <div className="services__list__item" >
                             <img src={Planting} alt="planting" />
                             <p className="upper__des">Planting</p>
                             <h3 className='standart__h3'>Planting</h3>

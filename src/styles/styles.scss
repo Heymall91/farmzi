@@ -21,6 +21,7 @@
     text-decoration: none;
     color: black;
     transition: 0.4s ease;
+    scroll-behavior: smooth;
     // outline: 4px solid green;
 }
 
@@ -186,7 +187,7 @@ header{
 
         }
 
-        .header__nav ul li{
+        .header__nav ul li a{
             color: var(--f-l-green);
         }
 
@@ -397,6 +398,18 @@ header{
     }
 }
 
+.call__to__action .wrapper .call__to__action__block .ahead .upper__des {
+    display: block;
+    max-width: 200px;
+
+    &::before{
+        left: -1rem;
+        top: 50%;
+        width: 15px;
+        transform: translate(-50%, -50%);
+      }
+}
+
 
 // team
 
@@ -491,6 +504,19 @@ header{
                 line-height: 3.6rem;
             }
         }
+    }
+}
+
+.video__intro__ahead .upper__des{
+
+    display: block;
+    max-width: 200px;
+
+    &::before{
+      left: -1rem;
+      top: 50%;
+      width: 15px;
+      transform: translate(-50%, -50%);
     }
 }
 

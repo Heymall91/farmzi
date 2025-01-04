@@ -35,14 +35,14 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className="footer__des">
-                    <div className="logo">
+                    <a href="#" className="logo">
                         <img src={Logo} alt="logo" />
-                    </div>
+                    </a>
                     <p>Lorem Ipsum is simply dummy text of the<br/>
                     printing and typeset industry has been<br/>
                     the industry's standard.</p>
                     <div className="call__us">
-                        <CallSection src={Phone} ahead='Call Us' tel='+48 535 865 229'/>
+                        <CallSection src={Phone} ahead='Call Us' tel='+48 000 865 229'/>
                 </div>
                 </div>
             </div>

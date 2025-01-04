@@ -181,7 +181,7 @@
     > ul{
       flex-direction: column;
 
-      li{
+      li a{
         font-size: 2rem;
       }
     }
@@ -305,6 +305,20 @@
   .video__intro .wrapper .video__intro__block .standart__h2 {
     font-size: 2.6rem;
     line-height: 3.6rem;
+  }
+
+  .video__intro__ahead .upper__des{
+
+    display: block;
+    max-width: 200px;
+    margin-left: 3rem;
+
+    &::before{
+      left: -1rem;
+      top: 50%;
+      width: 15px;
+      transform: translate(-50%, -50%);
+    }
   }
 
   .header__block .call__us{

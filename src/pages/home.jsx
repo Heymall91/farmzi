@@ -12,6 +12,7 @@ import TipsTricks from "../components/tipsTricks";
 import Banner from "../components/banner";
 
 
+
 const Home = () => 
     <>
         <Header/>

@@ -31,26 +31,26 @@ export default function SliderStatistic(){
             <div className="wrapper">
                 <div className="slider__statistic__block">
                     <div className="slider__statistic__st">
-                        <div className="slider__statistic__st__item">
+                        <div className="slider__statistic__st__item" data-aos="fade-up">
                             <div className="count">847 +</div>
                             <p className="upper__des">Project Done</p>
                         </div>
-                        <div className="slider__statistic__st__item">
+                        <div className="slider__statistic__st__item" data-aos="fade-down">
                             <div className="count">753 +</div>
                             <p className="upper__des">Happy Client</p>
                         </div>
-                        <div className="slider__statistic__st__item">
+                        <div className="slider__statistic__st__item" data-aos="fade-up">
                             <div className="count">284 +</div>
                             <p className="upper__des">Team Member</p>
                         </div>
-                        <div className="slider__statistic__st__item">
+                        <div className="slider__statistic__st__item" data-aos="fade-down">
                             <div className="count">98 +</div>
                             <p className="upper__des">Winning Award</p>
                         </div>
                     </div>
                     <div className="slider__statistic__sl">
                     <Swiper
-                    // autoplay={true}
+                    autoplay={true}
                     modules={[Navigation, Autoplay]}
                     className="mySwiper"
                     >

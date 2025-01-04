@@ -24,6 +24,7 @@
   text-decoration: none;
   color: black;
   transition: 0.4s ease;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -170,7 +171,7 @@ header .wrapper .header__block .header__burger .burger__item {
   height: 4px;
   background-color: var(--white);
 }
-header .wrapper .header__nav ul li {
+header .wrapper .header__nav ul li a {
   color: var(--f-l-green);
 }
 header .wrapper .header__nav ul {
@@ -305,6 +306,17 @@ header .wrapper .header__nav ul li:hover {
   background-color: var(--f-d-green);
 }
 
+.call__to__action .wrapper .call__to__action__block .ahead .upper__des {
+  display: block;
+  max-width: 200px;
+}
+.call__to__action .wrapper .call__to__action__block .ahead .upper__des::before {
+  left: -1rem;
+  top: 50%;
+  width: 15px;
+  transform: translate(-50%, -50%);
+}
+
 .team {
   position: relative;
 }
@@ -372,6 +384,17 @@ header .wrapper .header__nav ul li:hover {
   font-weight: 700;
   font-size: 3rem;
   line-height: 3.6rem;
+}
+
+.video__intro__ahead .upper__des {
+  display: block;
+  max-width: 200px;
+}
+.video__intro__ahead .upper__des::before {
+  left: -1rem;
+  top: 50%;
+  width: 15px;
+  transform: translate(-50%, -50%);
 }
 
 .slider__statistic .wrapper .slider__statistic__block .slider__statistic__st {

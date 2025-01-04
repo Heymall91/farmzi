@@ -6,7 +6,7 @@ export default function AboutUs(){
     return(
     <section className="about__us">
         <div className="wrapper">
-            <div className="about__us__block">
+            <div className="about__us__block" id="about">
                 <div className="ahead">
                     <p className="upper__des">
                         About Company

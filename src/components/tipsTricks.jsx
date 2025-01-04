@@ -7,7 +7,7 @@ export default function TipsTricks(){
 
         <section className="tips__tricks">
             <div className="wrapper">
-                <div className="tips__tricks__block">
+                <div className="tips__tricks__block" id="blog">
                     <div className="ahead">
                         <p className="upper__des">
                             Latest News
@@ -16,7 +16,7 @@ export default function TipsTricks(){
                         landscaping from blog.</h2>
                     </div>
                     <div className="tips__tricks__list">
-                     <div className="tips__tricks__list__item">
+                     <div className="tips__tricks__list__item" data-aos="zoom-in">
                         <img src={TipOne} alt="farm images" />
                         <div className="tips__tricks__list__info">
                             <div className="tips__tricks__data">
@@ -34,7 +34,7 @@ export default function TipsTricks(){
                         <button className='btn'>Read More +</button>
                         </div>
                      </div>
-                     <div className="tips__tricks__list__item">
+                     <div className="tips__tricks__list__item" data-aos="zoom-in">
                         <img src={TipTwo} alt="farm images" />
                         <div className="tips__tricks__list__info">
                            <div className="tips__tricks__data">

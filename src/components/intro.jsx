@@ -1,12 +1,11 @@
 import introImg from '../assets/introImg.jpg'
 
-
 export default function Intro(){
     return(
     <section className="intro">
         <div className="wrapper">
             <div className="intro__block">
-                <div className="intro__des">
+                <div className="intro__des" data-aos="fade-right">
                     <p className='upper__des'>
                         Make a garden with musion.
                     </p>
@@ -21,7 +20,7 @@ export default function Intro(){
                     </p>
                     <button className="btn">All Services +</button>
                 </div>
-                <div className="intro__img">
+                <div className="intro__img" data-aos="fade-left">
                     <img src={introImg} alt="" />
                 </div>
             </div>
