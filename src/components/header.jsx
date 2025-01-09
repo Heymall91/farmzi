@@ -27,20 +27,21 @@ function Header(){
                 </a>
                 <div className={!isOpened ? "header__nav opened" : "header__nav"}>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#" onClick={()=>{setIsOpened(!isOpened)}}>Home</a></li>
+                        <li><a href="#about" onClick={()=>{setIsOpened(!isOpened)}}>About</a></li>
+                        <li><a href="#services" onClick={()=>{setIsOpened(!isOpened)}}>Services</a></li>
+                        <li><a href="#blog" onClick={()=>{setIsOpened(!isOpened)}}>Blog</a></li>
+                        <li><a href="#contact" onClick={()=>{setIsOpened(!isOpened)}}>Contact</a></li>
                     </ul>
                 </div>
                 <div className="call__us">
                     <CallSection src={Phone} ahead='Call Us' tel='+48 000 865 229'/>
                 </div>
-                <div className="header__burger" onClick={() => setIsOpened(!isOpened)}>
-                    <span className="burger__item"></span>
-                    <span className="burger__item"></span>
-                    <span className="burger__item"></span>
+                <div className={isOpened ? "header__burger" : 'header__burger active'} onClick={() => setIsOpened(!isOpened)}>
+                    <span className="burger__item first"></span>
+                    <span className="burger__item second"></span>
+                    <span className="burger__item third"></span>
+                    <span className="burger__item fourth"></span>
                 </div>
             </div>
         </div>
