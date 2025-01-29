@@ -190,6 +190,10 @@ header{
 
         .header__nav ul li a{
             color: var(--f-l-green);
+
+            &:hover{
+                color: var(--white);
+            }
         }
 
         .header__nav ul{
@@ -222,8 +226,9 @@ header{
                     background-color: var(--white);
 
                     &:hover{
-                        background-color: var(--f-l-green);
-                        color: var(--back);
+                        background-color: transparent;
+                        outline: 2px solid var(--white);
+                        color: var(--white);
                     }
                 }
             }
@@ -817,6 +822,10 @@ footer{
 
                     &::marker{
                         content: url('../assets/rArrows.svg');
+                    }
+
+                    &:hover{
+                        color: var(--f-l-green);
                     }
                 }
             }

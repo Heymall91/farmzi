@@ -1,4 +1,4 @@
-import { CallSection } from "./header"
+import { CallSection } from "./Header"
 import Phone from "../assets/phoneCall.svg"
 
 

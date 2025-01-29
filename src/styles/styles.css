@@ -175,6 +175,9 @@ header .wrapper .header__block .header__burger .burger__item {
 header .wrapper .header__nav ul li a {
   color: var(--f-l-green);
 }
+header .wrapper .header__nav ul li a:hover {
+  color: var(--white);
+}
 header .wrapper .header__nav ul {
   gap: 40px;
 }
@@ -194,8 +197,9 @@ header .wrapper .header__nav ul li:hover {
   background-color: var(--white);
 }
 .intro .wrapper .intro__block .intro__des .btn:hover {
-  background-color: var(--f-l-green);
-  color: var(--back);
+  background-color: transparent;
+  outline: 2px solid var(--white);
+  color: var(--white);
 }
 .intro .wrapper .intro__block .intro__img {
   position: absolute;
@@ -613,6 +617,9 @@ footer .wrapper .footer__info__item ul li {
 }
 footer .wrapper .footer__info__item ul li::marker {
   content: url("../assets/rArrows.svg");
+}
+footer .wrapper .footer__info__item ul li:hover {
+  color: var(--f-l-green);
 }
 footer .wrapper .footer__des {
   background-color: var(--f-d-green);

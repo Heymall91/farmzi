@@ -62,7 +62,8 @@
   .services .wrapper .services__block .services__list .services__list__item .upper__des::before {
     width: 9%;
     left: -3rem;
-}
+  }
+  
 }
 
 @media (max-width: 1180px){

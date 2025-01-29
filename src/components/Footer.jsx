@@ -1,6 +1,6 @@
 import Logo from "../assets/logoFarmzi.svg"
 import Phone from "../assets/phoneCall.svg"
-import { CallSection } from "./header"
+import { CallSection } from "./Header"
 
 
 export default function Footer(){
